@@ -1,0 +1,147 @@
+* {
+    font-family: 'MedievalSharp', cursive;
+    color: #FF0000;
+}
+
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+#headers {
+    display: flex;
+}
+
+#logo {
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    right: 0;
+    margin: .5rem;
+    border-radius: 1rem;
+}
+
+#title {
+    color: #950101;
+    margin: .5rem;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 7rem;   
+}
+
+#opening-container {
+    margin-top: 3.5rem;
+}
+
+#opening-text {
+    text-align: center;     
+}
+
+#opening-t {
+    font-size: 4rem;
+}
+
+#opening-p {
+    font-size: 2rem;
+}
+
+#slices-t {
+    margin-top: 7rem;
+    margin-left: 1rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.img-container {
+    min-width: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    margin: 0;
+    margin-left: .5rem;
+    display: inline-block;
+    justify-content: center;
+}
+
+.slice-img {
+    object-fit: contain;
+    width: 100%;
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+ul {
+    padding: .5rem;
+}
+
+.slice-desc {
+    margin: .5rem;
+}
+
+.slice-link {
+    float: right;
+}
+
+@media (min-width: 800px) {
+    .slice-desc {
+        font-size: 1.5rem;
+    }
+} 
+
+@media (min-width: 1050px) {
+    .slice-desc {
+        font-size: 2rem;
+    }
+}
+
+#scene4 {
+    margin-top: -5rem;
+    margin-bottom: 0;
+}
+
+#review-t {
+    text-align: center;
+    margin-top: -3rem;
+    font-size: 3rem;
+}
+
+#review-p {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#sign {
+    float: right;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#finishing-t {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+#finishing-p {
+    font-size: 2rem;
+}
+
+#finishing-img-container {
+    overflow: hidden;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    margin: 0;
+    margin: .5rem;
+    display: inline-block;
+}
+
+#finishing-img {
+    object-fit: contain;
+    width: 100%;   
+}
